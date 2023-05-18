@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+</head>
+<body style="background-color: cyan;">
+    <!-- Comment-->
+    <h1>FIRST WEB PAGE</h1> <hr>
+    <h1>I LOVE PIZZA</h1>
+    <a href ="http://www.google.com" target="_blank">GOOGLE</a>
+    <button onclick="doSomething()">SUBMIT</button>
+    <p id="test">CLICK ME</p>
+    
+    <script> function doSomething(){
+    document.getElementById("test").innerHTML = "GoodBye"    
+    }    
+    </script>
+    
+    
+    <P><b><span style="color: darkslateblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</b></span> Blanditiis sint voluptatum vero dolorum est magnam odit rerum velit mollitia eveniet quisquam quia debitis, illo, id eum optio aperiam! Atque, cumque.</P>
+     <!-- TABLES -->
+    <h3>Store Hours</h3>
+    <table bgcolor="black">
+        <tr bgcolor="grey">                    <!-- TABLE ROW -->
+            <th width="100">Sunday</th> <!-- TABLE HEADER -->
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+        </tr>
+        <tr bgcolor="lightgrey" align="center">
+            <td>Closed</td>             <!--TABLE DATA-->
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>Closed</td>
+        </tr>
+    </table><br>
+    <form>
+        <div>
+            <label for="fname">First Name: </label>
+            <input type="text" id="fname" name="fname" placeholder="Enter your name" required>
+        </div>
+        <div> 
+            <label for="lname">Last Name: </label>
+            <input type="text" id="lname" name="lname" placeholder="Enter your last name" required>
+        </div>
+        <div>
+            <label for="pass">Password: </label>
+            <input type="password" id="pass" name="pass" maxlength="12" placeholder="Enter a Password" required>    
+        </div>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" placeholder="abc@email.com"
+        </div>
+        <div>
+            <label for="bdate">Birth Date</label>
+            <input type="date" id="bdate" name="bdate">
+        </div>
+        <div>
+           <input type="reset"> 
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+
+</body>
+</html>
