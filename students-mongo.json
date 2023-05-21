@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "6468ef4293a12f48a2170a93"
+  },
+  "name": "Spongy",
+  "age": 20,
+  "gpa": 3.2
+},{
+  "_id": {
+    "$oid": "6468efdd93a12f48a2170a94"
+  },
+  "name": "Raymond",
+  "age": 24,
+  "gpa": 2.8
+},{
+  "_id": {
+    "$oid": "6468efdd93a12f48a2170a95"
+  },
+  "name": "Jake",
+  "age": 3.6
+},{
+  "_id": {
+    "$oid": "6468efdd93a12f48a2170a96"
+  },
+  "name": "Amy",
+  "age": 25,
+  "gpa": 3.3
+},{
+  "_id": {
+    "$oid": "6468f2cb3df67e763f3ff12a"
+  },
+  "name": "Wes",
+  "age": 24,
+  "gpa": 2.3
+},{
+  "_id": {
+    "$oid": "6468f2cb3df67e763f3ff12b"
+  },
+  "name": "Laurel",
+  "age": 25,
+  "gpa": 2.8
+},{
+  "_id": {
+    "$oid": "6469039193a12f48a2170a97"
+  },
+  "name": "Annalise",
+  "age": 34,
+  "gpa": 4,
+  "registerDate": {
+    "$date": "2023-05-20T17:29:53.721Z"
+  },
+  "graduationDate": null,
+  "courses": [
+    "L*w",
+    "C***e",
+    "M*****r"
+  ],
+  "address": {
+    "street": "123 Fake St.",
+    "city": "Bikini Bottom",
+    "zip": 12345
+  }
+}]
