@@ -1,0 +1,23 @@
+.container{
+    
+    background-color:yellow;
+    justify-content:center;
+    width:400px;
+    height:400px;
+    margin:100px;
+}
+#results{
+    color:blue;
+    font-style: italic;
+    font-size:20px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+button{
+    border: 1px solid black;
+    font-size: 15px;
+    width:150px;
+    height:35px;
+    border-radius: 5px;
+}
